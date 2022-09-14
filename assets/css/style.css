@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home page css */
+.homelayout {
+    background-image: url("../home/background-home-desktop.jpg");
+
+    height: 100%;
+    /* You must set a specified height */
+    max-width: 100%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    padding: 50px;
+}
+
+
+
+.homelayout .navbar{
+    backdrop-filter: blur(10px);
+}
+
+.navbar-nav li a{
+    color: #fff;
+    margin: 0 20px;
+}
+
+.bannerblock{
+    margin: 330px auto 100px;
+}
+
+.bannerflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-left h4{
+    color: #D0D6F9;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner-left h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 200px;
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+.banner-left p{
+    font-size: 20px;
+    color: #fff;
+    width:50%;
+    }
+
+.banner-right a{
+    padding: 80px 50px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+}
+
+/* Destination page css */
+.homelayout-moon {
+    background-image: url("../destination/background-destination-desktop.jpg");
+
+    height: 100%;
+    /* You must set a specified height */
+    max-width: 100%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    padding: 50px;
+}
+
+
+.homelayout-moon .navbar{
+    backdrop-filter: blur(10px);
+}
+
+.bannermoon{
+    margin: 250px auto 100px;
+}
+
+.bannermoon h3{
+    color: #fff;
+    margin:0 0 70px 0;
+    text-transform: uppercase;
+}
+
+.bannermoon span{
+    opacity: 0.2;
+}
+
+
+.bannermoon-right{
+    width: 40%;
+}
+
+.tab-pane{
+    margin: 30px 0;
+}
+
+.tab-pane p{
+color: #fff;
+}
+
+.tab-pane h1{
+    color: #fff;
+    text-transform: uppercase;
+    }
+
+.bannermoon-right .nav-link.active {
+    color: #000;
+    background-color: none !important;
+    border-color: none !important;
+}
+
+.tab-flex{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.tab-flex p{
+    color: #fff;
+    margin-right: 50px;
+}
