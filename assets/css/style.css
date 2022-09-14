@@ -121,12 +121,22 @@ color: #fff;
 .tab-pane h1{
     color: #fff;
     text-transform: uppercase;
-    }
+}
 
-.bannermoon-right .nav-link.active {
-    color: #000;
-    background-color: none !important;
-    border-color: none !important;
+.bannermoon-right .nav-tabs .nav-link:hover {
+    border-color: #0b0f1b;
+}
+
+.bannermoon-right .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: inherit !important;
+    border-color: #000 !important;
+    border-bottom: 1px solid #fff;
+}
+
+.bannermoon-right .nav-tabs .nav-link {
+    color: #fff;
+    
 }
 
 .tab-flex{
